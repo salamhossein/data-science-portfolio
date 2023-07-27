@@ -16,8 +16,8 @@
             padding: 15px;
         }
         h1, h2 {
-            text-align: center;
             padding: 20px 0;
+            margin: 0;
         }
         ul {
             list-style-type: none;
@@ -33,39 +33,38 @@
         a:hover {
             color: #23527c;
         }
-        .intro {
-            text-align: justify;
-            margin-bottom: 20px;
-        }
         .header {
-            display: flex;
-            justify-content: space-between;
             background-color: #fff;
             color: #000;
             padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .header h1 {
-            margin: 0;
-            padding-left: 20px;
+        .header a {
+            color: #000;
         }
-        .header p {
-            margin: 0;
-            align-self: center;
+        .intro {
+            text-align: left;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class='header'>
-        <h1>S.Hossein</h1>
-        <p><a href='https://www.linkedin.com/in/salamhossein/'>LinkedIn</a> | <a href='https://github.com/salamhossein/data-science-portfolio/blob/main/Resume%20V1.pdf'>Resume</a></p>
+        <div style="margin-left: 20px;">S. Hossein</div>
+        <div>
+            <a href='https://www.linkedin.com/in/salamhossein/'>LinkedIn</a> | 
+            <a href='https://github.com/salamhossein/data-science-portfolio/blob/main/Resume%20V1.pdf'>Resume</a>
+        </div>
     </div>
     <div class='container'>
         <div class='intro'>
-            <h2><strong>I am</strong></h2>
-            <h2><strong>Salam Hossein</strong></h2>
+            <h1>I am</h1>
+            <h2>Salam Hossein</h2>
             <p>SEO Specialist and Data Analyst</p>
         </div>
-        <h2>My Portfolio:</h2>
+        <h2>My Portfolio</h2>
         <ul>
             <li><a href='https://salamhossein.github.io/data-science-portfolio/Data_Cleaning_and_Preprocessing.html'>Data Cleaning and Preprocessing</a></li>
             <li><a href='https://salamhossein.github.io/data-science-portfolio/Data_Visualization.html'>Data Visualization</a></li>
